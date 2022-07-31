@@ -4,7 +4,7 @@ let num = 53;
 let counter = 2;
 isPrime = true;
 
-while (counter < num / 2) {
+while (counter <= num / 2) {
   if (num % counter == 0) {
     isPrime = false;
   }
