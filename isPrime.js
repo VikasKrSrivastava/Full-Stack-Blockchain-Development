@@ -6,7 +6,6 @@ isPrime = true;
 
 while (counter < num / 2) {
   if (num % counter == 0) {
-    console.log(counter);
     isPrime = false;
   }
   counter++;
